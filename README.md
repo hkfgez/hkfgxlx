@@ -50,7 +50,7 @@ Rank actions based on user goal, risk, efficiency, and timing
 
 Generate a final action checklist
 
-```md id="8nij5o"
+```md
 ## Run
 
 ```bash
