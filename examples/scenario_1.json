@@ -1,0 +1,39 @@
+{
+  "user_goal": "I only want to do the most worthwhile low-risk thing on Binance today",
+  "assets": [
+    {
+      "symbol": "USDT",
+      "amount": 500,
+      "locked": false,
+      "current_path": "flexible_earn"
+    },
+    {
+      "symbol": "BNB",
+      "amount": 3,
+      "locked": false,
+      "current_path": null
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "launchpool_alpha",
+      "name": "Launchpool Alpha",
+      "type": "launchpool",
+      "required_asset": "USDT",
+      "min_amount": 100,
+      "reward_score": 85,
+      "risk_score": 25,
+      "time_sensitive": true
+    },
+    {
+      "id": "earn_bonus",
+      "name": "Simple Earn Bonus",
+      "type": "earn",
+      "required_asset": "USDT",
+      "min_amount": 50,
+      "reward_score": 60,
+      "risk_score": 10,
+      "time_sensitive": false
+    }
+  ]
+}
