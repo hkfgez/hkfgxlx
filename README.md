@@ -50,6 +50,7 @@ Rank actions based on user goal, risk, efficiency, and timing
 
 Generate a final action checklist
 
+```md id="8nij5o"
 ## Run
 
 ```bash
@@ -59,6 +60,7 @@ Local API docs will be available at:
 http://127.0.0.1:8000/docs
 Example API
 POST /analyze
+```json
 {
   "user_goal": "I only want to do the most worthwhile low-risk thing on Binance today",
   "assets": [
@@ -108,6 +110,7 @@ POST /analyze
     }
   ]
 }
+```
 Example Output Logic
 
 The system is designed to return:
